@@ -1,0 +1,42 @@
+.nav img {
+    width: 200px;
+    background-size: auto;
+    background-position: center;
+}
+
+.nav ul li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav li:last-child {
+    border: 1px solid #0CD977;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.nav li:last-child :hover {
+    color: #0CD977;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav ul>li:last-child a {
+    color: #0CD977;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    margin: 20px, 40px;
+    justify-content: center;
+}
+
+.active a {
+    color: #0CD977;
+    text-decoration: underline;
+}

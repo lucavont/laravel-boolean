@@ -30,3 +30,5 @@ Route::get('/campgratuito', function(){
 Route::get('/candidatiora', function(){
     return view('candidatiora');
 })->name('candidatiora');
+
+Route::get('users', 'UsersController@index')->name('users');

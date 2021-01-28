@@ -31,4 +31,6 @@ Route::get('/candidatiora', function(){
     return view('candidatiora');
 })->name('candidatiora');
 
-Route::get('users', 'UsersController@index')->name('users');
+Route::get('/users', 'UsersController@index')->name('users');
+
+Route::get('/users/{id}','UsersController@show')->name('users.show');
